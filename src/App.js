@@ -24,7 +24,7 @@ const filterGames = (game, query) => {
   }
   return game.filter((game) => {
     const gameTitle = game.title.toLowerCase()
-    return gameTitle.includes(query)
+    return gameTitle.includes(query.toLowerCase())
   })
 }
 
@@ -36,11 +36,7 @@ useEffect (() => {getGames()}, [])
     <div className="App">     
     <h1>Videogame Project</h1>
      <Routes>
-       {/* <Route path ="/"
-              render={(routerProps) => 
-              <Home {...routerProps} game = {game}/>
-              }
-      />        */}
+       
       <Route path = "/" element={<Home game = {game} filteredGame = {filteredGames}/>}>
       
         </Route>

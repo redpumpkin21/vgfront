@@ -16,17 +16,20 @@ const SingleGame = ({games, match}) => {
             loop = {true}
             volume = {0}
             playing= {true}
-            width = {'400px'}
+            width = "100%"
             />
             <p>Publisher: {game?.company}</p>
             <p>Genre: {game?.genre}</p>            
             <img className = "gameimg" src = {game?.image}/>
             <p className='description'>{game?.synopsis}</p>
+            <div className = 'video-wrapper'>
             <ReactPlayer 
             url={game?.trailer}
             width = {'400px'}
             />
            
+            </div>
+          
         </div>
         </div>
        
