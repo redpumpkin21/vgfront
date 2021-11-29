@@ -6,8 +6,8 @@ const SingleGame = ({games, match}) => {
     const game = games.find((game) => game.id === id)
     console.log(game)
     return(
-        <div>
-            <Link to = "/"><button>HOME</button></Link>
+        <div className = 'single'>
+            <Link to = "/"><button className = 'home'>HOME</button></Link>
             <div className='singlegame'>
             
             <h1>{game?.title}</h1>

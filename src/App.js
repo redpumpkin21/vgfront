@@ -4,6 +4,7 @@ import './App.css';
 import Home from './Pages/home'
 import SingleGame from './Pages/singlegame'
 import SearchBar from './Component/search';
+import Footer from './Component/footer';
 function App() {
 
 const url = "https://videogame-628.herokuapp.com/videogame/"
@@ -34,7 +35,7 @@ console.log(getGames)
 useEffect (() => {getGames()}, [])
   return (
     <div className="App">     
-    <h1>Videogame Project</h1>
+    <h1 className="title">Find a Game</h1>
      <Routes>
        
       <Route path = "/" element={<Home game = {game} filteredGame = {filteredGames}/>}>
@@ -48,6 +49,7 @@ useEffect (() => {getGames()}, [])
      
       
      </Routes>     
+     <Footer />
     </div>
   );
 }
