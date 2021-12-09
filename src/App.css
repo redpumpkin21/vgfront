@@ -59,3 +59,21 @@ body{
   text-align: center;
   color: #E7B71E;
 }
+
+.homep{
+  text-align: center
+}
+
+
+
+
+@media only screen and (min-width: 768px){
+  .homep img{
+    width: 400px;
+    height: 600px;
+  }
+
+  .singlegame{
+    margin-bottom: 5%
+  }
+}

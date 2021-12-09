@@ -5,6 +5,7 @@ import Home from './Pages/home'
 import SingleGame from './Pages/singlegame'
 import SearchBar from './Component/search';
 import Footer from './Component/footer';
+
 function App() {
 
 const url = "https://videogame-628.herokuapp.com/videogame/"
@@ -41,6 +42,7 @@ useEffect (() => {getGames()}, [])
       <Route path = "/" element={<Home game = {game} filteredGame = {filteredGames}/>}>
       
         </Route>
+        
         <Route path = '/:id'  element = {<SingleGame  games = {game} match={useMatch("/:id")}/>}></Route>
 
        
