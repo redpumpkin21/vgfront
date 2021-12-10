@@ -21,7 +21,7 @@ const SingleGame = ({games, match}) => {
                     loop = {true}
                     volume = {0}
                     playing= {true}
-                    width = {'500px'}
+                    width = '100%'
                     height = {'400px'}
         
                 />
@@ -32,7 +32,7 @@ const SingleGame = ({games, match}) => {
             <p>Genre: {game?.genre}</p>            
             <img className = "gameimg" src = {game?.image}/>
             <p className='description'>{game?.synopsis}</p>
-            <div className = 'player-wrapper'>
+           
                 <ReactPlayer 
                     url={game?.trailer}
                     width = {'500px'}
@@ -40,7 +40,7 @@ const SingleGame = ({games, match}) => {
                     className='react-player'
                 />
            
-            </div>
+            
           
         </div>
         </div>

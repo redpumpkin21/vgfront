@@ -64,6 +64,9 @@ body{
   text-align: center
 }
 
+.player-wrapper{
+  align-self: stretch;
+}
 
 
 
@@ -76,4 +79,12 @@ body{
   .singlegame{
     margin-bottom: 5%
   }
+  .react-player{
+    height: 600px!important;
+  }
+
 }
+
+/* @media only screen and (min-width: 1024px){
+ 
+} */
