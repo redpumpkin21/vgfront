@@ -1,10 +1,9 @@
-# Getting Started with Create React App
+# Find A Game
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This app is a video game finder with a custom built back end
+## TEchnologies used
 
-## Available Scripts
-
-In the project directory, you can run:
+I used Django/Python for my back end and React for my front end. 
 
 ### `npm start`
 

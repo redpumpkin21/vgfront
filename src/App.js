@@ -5,6 +5,7 @@ import Home from './Pages/home'
 import SingleGame from './Pages/singlegame'
 import SearchBar from './Component/search';
 import Footer from './Component/footer';
+import ScrollToTop from './Component/ScrollToTop';
 function App() {
 
 const url = "https://videogame-628.herokuapp.com/videogame/"
@@ -36,6 +37,7 @@ useEffect (() => {getGames()}, [])
   return (
     <div className="App">     
     <h1 className="title">Find a Game</h1>
+    <ScrollToTop />
      <Routes>
        
       <Route path = "/" element={<Home game = {game} filteredGame = {filteredGames}/>}>
