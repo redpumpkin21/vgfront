@@ -59,3 +59,32 @@ body{
   text-align: center;
   color: #E7B71E;
 }
+
+.homep{
+  text-align: center
+}
+
+.player-wrapper{
+  align-self: stretch;
+}
+
+
+
+@media only screen and (min-width: 768px){
+  .homep img{
+    width: 400px;
+    height: 600px;
+  }
+
+  .singlegame{
+    margin-bottom: 5%
+  }
+  .react-player{
+    height: 600px!important;
+  }
+
+}
+
+/* @media only screen and (min-width: 1024px){
+ 
+} */

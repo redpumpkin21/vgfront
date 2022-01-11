@@ -43,6 +43,7 @@ useEffect (() => {getGames()}, [])
       <Route path = "/" element={<Home game = {game} filteredGame = {filteredGames}/>}>
       
         </Route>
+        
         <Route path = '/:id'  element = {<SingleGame  games = {game} match={useMatch("/:id")}/>}></Route>
 
        

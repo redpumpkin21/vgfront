@@ -11,7 +11,7 @@ const Home = (props) => {
             
             {props.filteredGame.map((game, index) => {
                 return(
-                    <div>
+                    <div className = "homep">
                     <h1>{game.title}</h1>
                     <p>{game.genre}</p>
                     <p>{game.company}</p>
