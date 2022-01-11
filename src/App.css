@@ -18,7 +18,7 @@ div a img{
   color: #E7B71E;
 }
 .homep p{
-  color: black
+  color: #E7B71E
 }
 .single{
   display: flex;
@@ -31,7 +31,7 @@ div a img{
   align-items: center;
   gap: 20px;
   /* color: #BF9139 */
-  color: black
+  color: #E7B71E
 }
 
 .singlegame img{
@@ -98,7 +98,15 @@ body{
   form{
     color: black
   }
-
+  .foot{
+    color: black;
+  }
+  .singlegame{
+    color: black
+  }
+  .home p {
+    color: black
+  }
 }
 
 /* @media only screen and (min-width: 1024px){
