@@ -1,8 +1,11 @@
 form{
   text-align: center;
   color: #E7B71E;
+  font-weight: bolder
 }
-
+form span.visuallyHidden{
+  padding-right: 1em;
+}
 div a img{
   width: 400px;
   height: 600px;
@@ -14,6 +17,9 @@ div a img{
   justify-content: center;
   color: #E7B71E;
 }
+.homep p{
+  color: black
+}
 .single{
   display: flex;
   flex-direction: column;
@@ -24,7 +30,8 @@ div a img{
   flex-direction: column;
   align-items: center;
   gap: 20px;
-  color: #E7B71E
+  /* color: #BF9139 */
+  color: black
 }
 
 .singlegame img{
@@ -33,7 +40,8 @@ div a img{
 }
 
 .description{
-  margin: 0 20% 0 20% 
+  margin: 0 20% 0 20% ;
+  font-weight: bold
 }
 
 body{
@@ -81,6 +89,14 @@ body{
   }
   .react-player{
     height: 600px!important;
+  }
+
+  .description{
+    padding: 2em 16em 2em 16em;
+  }
+
+  form{
+    color: black
   }
 
 }
