@@ -92,7 +92,7 @@ body{
   }
 
   .description{
-    padding: 2em 16em 2em 16em;
+    padding: 2em 0 2em 0;
   }
 
   form{
@@ -104,3 +104,13 @@ body{
 /* @media only screen and (min-width: 1024px){
  
 } */
+
+/* @media only screen and (min-width: 1024px){
+ 
+} */
+
+@media only screen and (min-width: 1650px){
+ .description{
+    padding: 2em 16em 2em 16em;
+  }
+}
