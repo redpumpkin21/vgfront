@@ -98,7 +98,7 @@ body{
   
 }
 
- @media only screen and (min-width: 1024px){
+@media only screen and (min-width: 1024px){
   form{
     color: black
   }
@@ -108,9 +108,10 @@ body{
   .singlegame{
     color: black
   }
-  .home p {
+  .homep p {
     color: black
   } 
+  
 } 
 
 /* @media only screen and (min-width: 1024px){
