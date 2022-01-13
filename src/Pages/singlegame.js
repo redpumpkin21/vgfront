@@ -18,9 +18,9 @@ const SingleGame = ({games, match}) => {
                 <ReactPlayer 
                     className="react-player"
                     url = {game?.video}
-                    loop = {true}
-                    volume = {0}
-                    playing= {true}
+                    // loop = {true}
+                    // volume = {0}
+                    // playing= {true}
                     width = '100%'
                     height = {'400px'}
         
